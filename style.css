@@ -1,0 +1,127 @@
+* {
+    box-sizing: border-box;
+  }
+
+body {
+    background-color: hsl(30, 38%, 92%);
+}
+img {
+    max-width:100%;
+    max-height:100%;
+}
+
+header {
+    display: block;
+    font-size: 28px;
+    padding: 10px 0px;
+    letter-spacing:5px;
+    color: hsl(228, 12%, 48%)
+}
+
+h1 {
+    display: block;
+    padding: 10px 0px;
+    font-size: 52px;
+    font-weight: bold;
+    font-family: 'Fraunces', serif;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    display: block;
+    padding: 10px 0px;
+    font-size: 24px;
+    color: hsl(228, 12%, 48%)
+}
+@media screen and (max-width: 800px)
+{
+    .img-desktop {
+        display: none;
+    }
+}
+@media screen and (min-width: 800px)
+{
+    .img-mobile {
+        display: none;
+
+    }
+}
+
+.container {
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    width: 800px;
+    max-height: auto;
+    margin: 100px auto;
+    border-radius: 15px;
+    overflow:hidden /* This prevents the children 'flowing' over the container */
+}
+
+@media screen and (max-width: 800px)
+{
+    .container {
+        width: 450px;
+        margin: 20px auto;
+    }
+}
+
+.column-1{
+    float: left;
+    width: 50%; 
+    padding-right: 30px; 
+  }
+
+  .row{
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  @media screen and (max-width: 800px) {
+    .column {
+      width: 100%;
+    }
+  }
+
+.old-price {
+    font-family: 'Montserrat', sans-serif;
+    display: inline-block;
+    color: hsl(228, 12%, 48%);
+    font-size: 24px;
+    margin: 20px 20px;
+    text-decoration: line-through
+}
+
+.new-price {
+    font-family: 'Fraunces', serif;
+    display: inline-block;
+    color: hsl(158, 36%, 37%);
+    font-size: 48px;
+    margin: 20px 0px;
+}
+
+.button{
+    font-family: 'Montserrat', sans-serif;
+    display: block;
+    background-color: hsl(158, 36%, 37%);
+    width: 50%;
+    height: 50px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+
+}
+@media screen and (max-width: 800px) {
+    .button{
+        margin: 20px auto;
+    }
+
+}
+
+.button:hover{
+    background-color: hsl(158, 39%, 41%);
+}
+
