@@ -1,7 +1,7 @@
 Frontend Mentor - Product preview card component
 Design preview for the Product preview card component coding challenge
 
-C:\Users\Charles\Documents\Web_Project\Web_development_Charles\Frontend Mentor Project\Images\Frontend Mentor - Product preview card component.PNG
+![image](https://user-images.githubusercontent.com/76209424/175990585-285801e5-c2c3-44ac-b6b6-4d6813b7b57b.png)
 
 Welcome! 👋
 Thanks for checking out this front-end coding challenge.
